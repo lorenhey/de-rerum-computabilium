@@ -1,0 +1,30 @@
+site_name: DE RERUM COMPUTABILIUM
+site_description: An executable history of calculation.
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    accent: amber
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Philosophy: philosophy.md
+  - Methodology: methodology.md
+  - Corpus: corpus.md
+  - Historical Arithmetic: historical-arithmetic.md
+  - Computational Media: computational-media.md
+  - Bibliography: bibliography.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
